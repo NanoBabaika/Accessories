@@ -1,0 +1,47 @@
+.container_pageprewiew--delivery {
+    height: 450px;
+}
+
+.container__points  {
+    box-sizing: border-box;
+    border: 22px solid rgb(247, 247, 247);
+}
+
+.placemark_block {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.placemark__list-col {
+    margin-right: 99px;
+    margin-bottom: 50px;
+}
+
+.placemark__list-col:last-child {
+    margin-right: 0;
+} 
+
+.placemark__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+    width: 178px;
+}
+
+.placemark__item-img {
+    margin-right: 12px;
+}
+
+.placemark__subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 74px;
+}

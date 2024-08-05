@@ -1,0 +1,91 @@
+.bx-wrapper {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager  {
+    position: relative;
+    bottom: 60px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: rgb(255, 255, 255);
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover  {
+	background: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+
+.slider__item {
+    margin-top: 20px;
+    width: 1200px;
+    height: 404.75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    backdrop-filter: brightness(.2);
+    background-size: 100%;
+    color: #fff;
+    padding-left: 84px;
+}
+
+.slider__item ::before {
+    content: "";
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Хрень с изображениями , да, знаю */
+.slider__item1 ::before{
+    background-image: url('../../img/slider__banner.png');
+  }
+ 
+
+.slider__item2 ::before{
+    background-image: url('../../img/slider__banner2.png');
+    background-repeat: no-repeat;
+
+} 
+
+.slider__item3 ::before {
+    background-image: url('../../img/slider__banner.png');   
+}
+
+.slider__item--title {
+    margin-top: 75px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.slider__item-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 45%;
+}
+
+.slider__item-coomment {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 118.75%;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}

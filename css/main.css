@@ -1,0 +1,17 @@
+@import url(./layout/base.css);
+@import url(./layout/normalize.css);
+@import url(./blocks/header.css);
+@import url(./blocks/preview.css);
+@import url(./blocks/categories.css);
+@import url(./blocks/features.css);
+@import url(./blocks/form.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/modal.css);
+@import url(./blocks/slider.css);
+@import url(./blocks/products.css);
+@import url(./blocks/watch.css);
+@import url(./blocks/prewiev__page.css);
+@import url(./blocks/conditions.css);
+@import url(./blocks/placemark.css);
+@import url(./blocks/contacts.css);
+

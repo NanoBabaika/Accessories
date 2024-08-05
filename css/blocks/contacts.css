@@ -1,0 +1,131 @@
+.pageprewiew-img {
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+
+.list__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+
+.info-item {
+    margin-bottom: 12px;
+}
+
+.info-item:last-child{
+    margin-bottom: 0;
+}
+
+/* секция контактная информация */
+.container__info {
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border: 22px solid rgb(247, 247, 247);
+    padding-left: 70px;
+}
+
+.section__title--about {
+    margin-top: 65px;
+    margin-right: 595px;
+    width: 100%;
+}
+
+.contacts__info--block {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.contacts__left--col {
+    width: 500px;
+    margin-right: 44px;
+}
+
+.contacts__right--col {
+    width: 500px;
+}
+
+.contacts__list-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contacts__item--img {
+    margin-right: 10px;
+}
+
+.contacts__item--info {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+.contacts__item-desc {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contacts__vkgroup {
+    display: flex;
+    margin-bottom: 62px;
+}
+
+.contacts__vkgroup-img {
+    margin-right: 19px;
+}
+
+.contacts__vkgroup-link {
+    font-weight: bold;
+}
+
+
+.contacts__vkgroup-link:hover{
+    color: rgb(205, 180, 148);
+    transition: .3s;
+}
+
+/* секция партнеры */
+
+.container__partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title-partners {
+    margin-top: 66px;
+}
+
+.partners__list {
+    display: flex;
+    margin-top: 31px;
+    margin-bottom: 86px;
+}
+
+.partners__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 159px;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 231, 231);
+    margin-right: 30px;
+}
+
+.partners__list-item:last-child {
+    margin-right: 0;
+}
+
+ 

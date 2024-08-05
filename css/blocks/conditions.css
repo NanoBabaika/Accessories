@@ -1,0 +1,54 @@
+.container___conditions {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 80px;
+}
+
+.conditions__list {
+    margin-top: 45px;
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.conditions__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 192.11px;
+    margin-right: 80px;
+}
+
+.conditions__list-item:last-child {
+    margin-right: 0;
+}
+
+.conditions__item-head {
+    height: 92px;
+}
+
+.conditions__item-desc {
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.item-desc--big {
+    padding-top: 10px;
+}
+
+.form__container--sertificate {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
